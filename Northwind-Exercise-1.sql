@@ -22,10 +22,12 @@ Our least expensive product is: Geitost with a unit price of 2.50.
 about their last order from us how would you find that information?
 -We would need to select all from the orders table where the ship name is called "The Big Cheese"
 a. What tables would you use?
-1-9
+-We would use the orders table to see the ship name if it equals "The Big Cheese".
 b. How would you link the data in the tables you are using
+-We would link the data from the customers table to the orders table to see the relation.
 c. What information might I want to know about their order?
-i. Order Date?
+-We would need to know the ship name to see if it matches any customers we have in our tables.
+i. Order Date? 
 ii. Sales Total?
 iii. Product Name?
 iv. Is there other information that you might find interesting?
