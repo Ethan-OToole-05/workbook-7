@@ -51,7 +51,7 @@ multiplying unit price by the number of units on hand). Sort the results in
 descending order by value. If two or more have the same value, order by
 product name.
 
---SELECT ProductID, ProductName, ROUND(SUM(UnitPrice * UnitsInStock)) AS Inventory_Value
+--SELECT ProductID, ProductName, FLOOR(SUM(UnitPrice * UnitsInStock)) AS Inventory_Value
 --FROM products 
 --GROUP BY ProductID 
 --ORDER BY Inventory_Value DESC, ProductName;
