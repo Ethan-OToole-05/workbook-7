@@ -78,5 +78,5 @@ supplies to Northwind
 
 --SELECT * FROM products WHERE SupplierID = 4;
 
-*/
+*/ 
 
