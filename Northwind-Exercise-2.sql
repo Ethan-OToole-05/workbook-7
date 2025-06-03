@@ -1,3 +1,5 @@
+USE northwind;
+
 /*
 1. What is the name of the table that holds the items Northwind sells?
 
@@ -11,7 +13,7 @@ product.
 3. Write a query to list the product id, product name, and unit price of every
 product. Except this time, order then in ascending order by price.
 
---SELECT ProductID, ProductName, UnitPrice FROM products;
+SELECT ProductID, ProductName, UnitPrice FROM products ORDER BY UnitPrice ASC;
 
 4. What are the products that we carry where the unit price is $7.50 or less?
 
@@ -77,3 +79,4 @@ supplies to Northwind
 --SELECT * FROM products WHERE SupplierID = 4;
 
 */
+
