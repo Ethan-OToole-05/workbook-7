@@ -17,12 +17,12 @@ SELECT ProductID, ProductName, UnitPrice FROM products ORDER BY UnitPrice ASC;
 
 4. What are the products that we carry where the unit price is $7.50 or less?
 
---SELECT * FROM products WHERE UnitPrice < 7.50;
+--SELECT * FROM products WHERE UnitPrice <=  7.50;
 
 5. What are the products that we carry where we have at least 100 units on
 hand? Order them in descending order by price.
 
---SELECT * FROM products WHERE UnitsInStock > 100 ORDER BY UnitPrice DESC;
+--SELECT * FROM products WHERE UnitsInStock >= 100 ORDER BY UnitPrice DESC;
 
 6. What are the products that we carry where we have at least 100 units on
 hand? Order them in descending order by price. If two or more have the
