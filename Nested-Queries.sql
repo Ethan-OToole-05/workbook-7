@@ -39,6 +39,9 @@ it with back ticks in the FROM clause.
 
 5. What is the name of the customer that bought order 10266?
 
---
+--SELECT CompanyName 
+--FROM customers 
+--WHERE CustomerID = 
+--(SELECT CustomerID FROM orders WHERE OrderID = 10266);
 
 */
