@@ -26,7 +26,7 @@ name of every product. Order by product name.
 --SELECT p.ProductID, p.ProductName, p.UnitPrice, c.CategoryName, s.CompanyName
 --FROM suppliers
 --AS s JOIN products AS p ON s.SupplierID = p.SupplierID 
---JOIN categories AS c ON c.CategoryID = p.CategoryID;
+--JOIN categories AS c ON c.CategoryID = p.CategoryID ORDER BY p.ProductName;
 
 4. What is the product name(s) and categories of the most expensive
 products? HINT: Find the max price in a subquery and then use that in
